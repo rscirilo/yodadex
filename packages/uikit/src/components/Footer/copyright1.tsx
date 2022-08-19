@@ -5,7 +5,7 @@ class Copyright extends Component{
   render(){
     return(
       <div>
-        <Text color="#FFFFFF" fontWeight={"thin"}>©2022 Yoda Swap Coin All rights reserved.</Text>
+        <Text color="#FFFFFF" fontWeight={"thin"}>©2022 Yoda Coin Swap All rights reserved.</Text>
       </div>
     )
   }
