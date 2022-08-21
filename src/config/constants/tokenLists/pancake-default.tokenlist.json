@@ -137,6 +137,14 @@
       "chainId": 97,
       "decimals": 18,
       "logoURI": "https://pancakeswap.finance/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "name": "Yoda Coin swap",
+      "symbol": "JEDALs",
+      "address": "0x50288F36d77d08093809f65B0ADf4DED9f5c6236",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/20718.png"
     }
   ]
 }
