@@ -9,6 +9,7 @@ const CAKE_MAINNET = new Token(
   'https://pancakeswap.finance/',
 )
 
+
 const CAKE_TESTNET = new Token(
   ChainId.BSC_TESTNET,
   '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
@@ -35,11 +36,24 @@ const USDC_TESTNET = new Token(
   'Binance-Peg USD Coin',
   'https://www.centre.io/usdc',
 )
+const JEDALS = new Token(
+  ChainId.BSC,
+  '0x50288F36d77d08093809f65B0ADf4DED9f5c6236',
+  9,
+  'JEDALs',
+  'YODADEX',
+  'https://yodadex.finance/',
+)
+export const JEDALs = {
+  [ChainId.BSC]: JEDALS,
+  [ChainId.BSC_TESTNET]: JEDALS,
+}
 
 export const USDC = {
   [ChainId.BSC]: USDC_BSC,
   [ChainId.BSC_TESTNET]: USDC_TESTNET,
 }
+
 
 export const CAKE = {
   [ChainId.BSC]: CAKE_MAINNET,
@@ -2273,6 +2287,14 @@ export const bscTokens = {
     'PEAK',
     'PEAKDEFI',
     'https://peakdefi.com/',
+  ),//TOKEN JEDALs
+  jedals: new Token(
+    ChainId.BSC,
+    '0x50288F36d77d08093809f65B0ADf4DED9f5c6236',
+    9,
+    'JEDALs',
+    'YODADEX',
+    'https://yodadex.finance/',
   ),
   nbt: new Token(
     ChainId.BSC,
