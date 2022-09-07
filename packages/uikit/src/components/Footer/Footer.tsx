@@ -16,7 +16,8 @@ import { ThemeSwitcher } from "../ThemeSwitcher";
 import LangSelector from "../LangSelector/LangSelector";
 import { Button } from "../Button";
 import { Colors } from "../..";
-import Yoda from "../Svg/Icons/LogoWithText";
+import LogoWithText from "../Svg/Icons/LogoWithText";
+
 
 
 const MenuItem: React.FC<FooterProps> = ({
@@ -36,7 +37,8 @@ const MenuItem: React.FC<FooterProps> = ({
           justifyContent="center"
           alignItems="center"
           mb={["0px", null, "2px"]}
-        ><Yoda></Yoda>
+        >
+          <LogoWithText width={200}></LogoWithText>
           <Box display={["none", null, "block"]}>
           </Box>
         </Flex>

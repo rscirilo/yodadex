@@ -5,7 +5,7 @@ const Icon: React.FC<SvgProps> = (props) => {
   return (
     <img src="images/logosite.png"
     alt=""
-    width={40}/>
+    width={160}/>
   );
 };
 

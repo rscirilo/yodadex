@@ -5,7 +5,7 @@ class Yoda extends Component{
   render(){
     return(
       <div>
-        <img src="images/logosite.png" alt="" width={120}/>
+        <img src="images/logosite_nome.png" alt="" width={200}/>
       </div>
     )
   }

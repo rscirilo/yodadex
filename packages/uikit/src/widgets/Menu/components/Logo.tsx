@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
 import styled, { keyframes } from "styled-components";
+import Yoda from "../../../components/Svg/Icons/textologo";
 import Flex from "../../../components/Box/Flex";
 import { LogoIcon, LogoWithTextIcon } from "../../../components/Svg";
 import { MenuContext } from "../context";
+import Textologo from "../../../components/Svg/Icons/textologo";
 
 interface Props {
   isDark: boolean;
@@ -17,14 +19,14 @@ const blink = keyframes`
 const StyledLink = styled("a")`
   display: flex;
   align-items: center;
-  .mobile-icon {
-    width: 32px;
+   Yoda#aaaa{
+    width: 20px;
     ${({ theme }) => theme.mediaQueries.nav} {
-      display: none;
+      display: block;
     }
   }
   .desktop-icon {
-    width: 160px;
+    width: 50px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
@@ -43,12 +45,13 @@ const StyledLink = styled("a")`
   }
 `;
 
-const Logo: React.FC<Props> = ({ isDark, href }) => {
+const Logo: React.FC<React.PropsWithChildren<Props>> = ({ isDark, href }) => {
   const { linkComponent } = useContext(MenuContext);
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
+      <img src="images/logosite.png" alt="" width={40}></img>
+      <Textologo className="desktop-icon" isDark={isDark} />
       
     </>
   );
