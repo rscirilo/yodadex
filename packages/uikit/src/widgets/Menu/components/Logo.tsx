@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
 import styled, { keyframes } from "styled-components";
-import Yoda from "../../../components/Svg/Icons/textologo";
 import Flex from "../../../components/Box/Flex";
-import { LogoIcon, LogoWithTextIcon } from "../../../components/Svg";
 import { MenuContext } from "../context";
-import Textologo from "../../../components/Svg/Icons/textologo";
+import Textologo from "../../../components/Svg/Icons/Textologo"; "../../../components/Svg/Icons/Textologo";
 
 interface Props {
   isDark: boolean;
@@ -50,7 +48,7 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <img src="images/logosite.png" alt="" width={40}></img>
+      <img src="images/logosite.png" alt="" width={30}></img>
       <Textologo className="desktop-icon" isDark={isDark} />
       
     </>

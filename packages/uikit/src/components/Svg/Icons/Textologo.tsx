@@ -8,10 +8,10 @@ interface LogoProps extends SvgProps {
 
 const Logo: React.FC<React.PropsWithChildren<LogoProps>> = ({ isDark, ...props }) => {
   const textColor = isDark ? "#FFFFFF" : "#000000";
-      return (
-        <Svg width="200pt" viewBox="0 0 3989.000000 1039.000000">
-
-        <g transform="translate(0.000000,1039.000000) scale(0.100000,-0.100000)"
+  return (
+    <Svg width="100pt" viewBox="0 0 3989.000000 1039.000000">
+      
+      <g transform="translate(0.000000,1039.000000) scale(0.100000,-0.100000)"
         fill={textColor} stroke="none">
         <path d="M11932 8547 c-53 -20 -103 -66 -128 -121 l-24 -51 0 -742 c0 -409 -3
         -743 -6 -743 -3 0 -47 39 -97 86 -198 186 -407 292 -671 341 -130 25 -480 24
@@ -98,7 +98,8 @@ const Logo: React.FC<React.PropsWithChildren<LogoProps>> = ({ isDark, ...props }
         1313 -658 1971 -61 191 -119 358 -133 378 -29 42 -81 79 -135 94 -61 17 -996
         14 -1052 -4z"/>
         </g>
-</Svg>
-      )
-}
+    </Svg>
+  );
+};
+
 export default React.memo(Logo, (prev, next) => prev.isDark === next.isDark);

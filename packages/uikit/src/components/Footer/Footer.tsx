@@ -38,7 +38,7 @@ const MenuItem: React.FC<FooterProps> = ({
           alignItems="center"
           mb={["0px", null, "2px"]}
         >
-          <LogoWithText width={200}></LogoWithText>
+          <LogoWithText></LogoWithText>
           <Box display={["none", null, "block"]}>
           </Box>
         </Flex>
