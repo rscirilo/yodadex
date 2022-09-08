@@ -38,7 +38,7 @@ export const connectorsByName = {
     const { WalletLinkConnector } = await import('@web3-react/walletlink-connector')
     return new WalletLinkConnector({
       url: 'https://pancakeswap.finance',
-      appName: 'PancakeSwap',
+      appName: 'YodaCoin',
       appLogoUrl: 'https://pancakeswap.com/logo.png',
       supportedChainIds: SUPPORTED_CHAIN_ID,
     })

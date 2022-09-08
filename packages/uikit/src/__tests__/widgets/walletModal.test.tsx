@@ -702,7 +702,7 @@ it("renders ConnectModal correctly", () => {
             </p>
             <a
               class="c22"
-              href="https://docs.pancakeswap.finance/get-started/connection-guide"
+              href="https://yodacoinswap.com/connection-guide/"
               rel="noreferrer noopener"
               scale="md"
               target="_blank"
