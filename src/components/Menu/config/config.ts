@@ -40,7 +40,7 @@ const config: (t: ContextApi['t'], isDark: boolean, languageCode?: string, chain
   (t, isDark, languageCode, chainId) =>
     [
       {
-        label: t('Stake'),
+        label: t('Staking'),
         fillIcon: SwapFillIcon,
         href: 'https://www.yodastk.com/',
         type: DropdownMenuItemType.EXTERNAL_LINK,
