@@ -1,11 +1,11 @@
 {
   "short_name": "YodaDex",
   "name": "YodaDex",
-  "description": "Farm JEDALS",
+  "description": "Yoda Coin Swap",
   "homepage_url": "https://yodadex.finance",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1FC7D4",
+  "theme_color": "#32044b",
   "background_color": "#ffffff",
   "orientation": "portrait",
   "icons": [
