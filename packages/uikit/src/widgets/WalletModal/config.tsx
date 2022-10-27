@@ -66,12 +66,12 @@ const connectors: Config[] = [
   //   connectorId: ConnectorNames.Injected,
   //   priority: 999,
   // },
-  // {
-  //   title: "SafePal",
-  //   icon: SafePal,
-  //   connectorId: ConnectorNames.Injected,
-  //   priority: 999,
-  // },
+  {
+     title: "SafePal",
+     icon: SafePal,
+     connectorId: ConnectorNames.Injected,
+     priority: 999,
+  },
   // {
   //   title: "Coin98",
   //   icon: Coin98,
