@@ -24,7 +24,7 @@ const connectors: Config[] = [
     title: "Binance Wallet",
     icon: BinanceChain,
     connectorId: ConnectorNames.BSC,
-    priority: 2,
+    priority: 3,
   },
   // {
   //   title: "Coinbase Wallet",
